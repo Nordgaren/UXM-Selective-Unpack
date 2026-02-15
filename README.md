@@ -1,7 +1,6 @@
 # UXM Selective Unpacker  
 Enables file modding for DS1, DS2, SotFS, DS3, Sekiro and Elden Ring by unpacking game archives and patching the executable to load loose files instead.    
 Requires [.NET 4.7.2](https://www.microsoft.com/net/download/thank-you/net472) - Windows 10 users should already have this.    
-[Nexus Page](https://www.nexusmods.com/eldenring/mods/1651)    
 
 # Nexus Mods
 My mods will no longer be on Nexus Mods, and I do not give permission to re-upload them. If you mirror my mods to Nexus, I will have them taken down. Nexus is a scummy website that takes andvantage of mod authors, and only enforces their ToS if they feel like it. They make money off the backs of mod authors, but don't have the mod authors backs. I will not support this. 
