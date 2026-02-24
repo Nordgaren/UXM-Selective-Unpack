@@ -189,6 +189,7 @@
 /action/script/c7521.hks
 /action/script/c7530.hks
 /action/script/c7540.hks
+/action/script/c7541.hks
 /action/script/c7560.hks
 /action/script/c7561.hks
 /action/script/c7570.hks
@@ -515,6 +516,7 @@
 /menu/02_171_lobbyselect.gfx
 /menu/02_200_matching.gfx
 /menu/02_220_nightboss_status.gfx
+/menu/02_221_chaosmatch_status.gfx
 /menu/02_230_matching_selectoption.gfx
 /menu/02_300_archive_base.gfx
 /menu/02_301_archive_top.gfx
@@ -531,6 +533,7 @@
 /menu/02_400_antique.gfx
 /menu/02_410_antique_status_p1.gfx
 /menu/02_411_antique_status_p2.gfx
+/menu/02_412_antique_status_p3.gfx
 /menu/02_420_antiquestandlist.gfx
 /menu/02_430_antique_filterlist.gfx
 /menu/02_440_antiquestandpreset.gfx
@@ -563,6 +566,7 @@
 /menu/05_102_resulthistory.gfx
 /menu/05_105_resultsummary.gfx
 /menu/05_110_reward.gfx
+/menu/05_111_rewardchaosrate.gfx
 /menu/05_900_logo_fromsoft.gfx
 /menu/05_901_logo_bne.gfx
 /menu/05_903_warn_illegalcopy.gfx
@@ -842,6 +846,7 @@
 /param/drawparam/m00_00_0005_commonevent.gparam.dcx
 /param/drawparam/m00_00_0006_commonevent.gparam.dcx
 /param/drawparam/m00_00_0007_commonevent.gparam.dcx
+/param/drawparam/m00_00_0008_commonevent.gparam.dcx
 /param/drawparam/m00_00_0010_weatheroutdoor.gparam.dcx
 /param/drawparam/m00_00_0011_weatheroutdoor.gparam.dcx
 /param/drawparam/m00_00_0015_sessionpattern.gparam.dcx
@@ -952,6 +957,7 @@
 /param/drawparam/m60_00_0440.gparam.dcx
 /param/drawparam/m60_00_0450.gparam.dcx
 /param/drawparam/m60_00_0510.gparam.dcx
+/param/drawparam/m60_00_0640.gparam.dcx
 /param/drawparam/m60_00_0800.gparam.dcx
 /param/drawparam/m60_00_0810.gparam.dcx
 /param/drawparam/m60_00_0820.gparam.dcx
@@ -22723,6 +22729,7 @@
 /chr/c7500_div00.anibnd.dcx
 /chr/c7500_div01.anibnd.dcx
 /chr/c7500_div02.anibnd.dcx
+/chr/c7500_div03.anibnd.dcx
 /chr/c7500_h.texbnd.dcx
 /chr/c7500_l.texbnd.dcx
 /chr/c7510.anibnd.dcx
@@ -22755,8 +22762,14 @@
 /chr/c7540.chrbnd.dcx
 /chr/c7540_div00.anibnd.dcx
 /chr/c7540_div01.anibnd.dcx
+/chr/c7540_div02.anibnd.dcx
 /chr/c7540_h.texbnd.dcx
 /chr/c7540_l.texbnd.dcx
+/chr/c7541.anibnd.dcx
+/chr/c7541.behbnd.dcx
+/chr/c7541.chrbnd.dcx
+/chr/c7541_h.texbnd.dcx
+/chr/c7541_l.texbnd.dcx
 /chr/c7560.anibnd.dcx
 /chr/c7560.behbnd.dcx
 /chr/c7560.chrbnd.dcx
@@ -22938,6 +22951,7 @@
 /aeg950_003.bnk
 /aeg950_005.bnk
 /cs_c2100.bnk
+/cs_c2110.bnk
 /cs_c2140.bnk
 /cs_c2150.bnk
 /cs_c2270.bnk
@@ -23043,6 +23057,7 @@
 /cs_c4770.bnk
 /cs_c4810.bnk
 /cs_c4900.bnk
+/cs_c4901.bnk
 /cs_c4910.bnk
 /cs_c4950.bnk
 /cs_c4980.bnk
@@ -23056,6 +23071,7 @@
 /cs_c7510.bnk
 /cs_c7530.bnk
 /cs_c7540.bnk
+/cs_c7561.bnk
 /cs_c7580.bnk
 /cs_c7700.bnk
 /cs_c7710.bnk
@@ -23303,6 +23319,7 @@
 /enus/wem/13/131216217.wem
 /enus/wem/13/131853611.wem
 /enus/wem/13/132366068.wem
+/enus/wem/13/134270965.wem
 /enus/wem/13/134627119.wem
 /enus/wem/13/13491126.wem
 /enus/wem/13/135064691.wem
@@ -23354,6 +23371,7 @@
 /enus/wem/15/159423782.wem
 /enus/wem/15/159589595.wem
 /enus/wem/15/159651044.wem
+/enus/wem/16/160050113.wem
 /enus/wem/16/160866729.wem
 /enus/wem/16/161494306.wem
 /enus/wem/16/16287872.wem
@@ -23538,6 +23556,7 @@
 /enus/wem/26/261707144.wem
 /enus/wem/26/262803637.wem
 /enus/wem/26/265001925.wem
+/enus/wem/26/265226476.wem
 /enus/wem/26/266022678.wem
 /enus/wem/26/266030463.wem
 /enus/wem/26/266508771.wem
@@ -23650,7 +23669,9 @@
 /enus/wem/32/32224148.wem
 /enus/wem/32/323713857.wem
 /enus/wem/32/323986156.wem
+/enus/wem/32/32511633.wem
 /enus/wem/32/325183270.wem
+/enus/wem/32/325271752.wem
 /enus/wem/32/325804296.wem
 /enus/wem/32/326186502.wem
 /enus/wem/32/326241956.wem
@@ -24026,6 +24047,7 @@
 /enus/wem/52/522968480.wem
 /enus/wem/52/523363347.wem
 /enus/wem/52/523599954.wem
+/enus/wem/52/524257174.wem
 /enus/wem/52/524930248.wem
 /enus/wem/52/525508575.wem
 /enus/wem/52/525598349.wem
@@ -24179,6 +24201,7 @@
 /enus/wem/60/608797500.wem
 /enus/wem/60/60986398.wem
 /enus/wem/61/610232589.wem
+/enus/wem/61/610619300.wem
 /enus/wem/61/612425283.wem
 /enus/wem/61/615953843.wem
 /enus/wem/61/616006597.wem
@@ -24201,6 +24224,7 @@
 /enus/wem/62/626565994.wem
 /enus/wem/62/627514552.wem
 /enus/wem/62/62763026.wem
+/enus/wem/62/6279185.wem
 /enus/wem/62/629460994.wem
 /enus/wem/62/629708455.wem
 /enus/wem/63/63059138.wem
@@ -24617,6 +24641,7 @@
 /enus/wem/87/871196446.wem
 /enus/wem/87/871259325.wem
 /enus/wem/87/871699320.wem
+/enus/wem/87/872127810.wem
 /enus/wem/87/872973466.wem
 /enus/wem/87/873705261.wem
 /enus/wem/87/875582291.wem
@@ -24895,11 +24920,14 @@
 /wem/10/102602812.wem
 /wem/10/1026112630.wem
 /wem/10/1031648250.wem
+/wem/10/1032112591.wem
 /wem/10/1037908813.wem
 /wem/10/104121853.wem
 /wem/10/104383713.wem
 /wem/10/1045902398.wem
 /wem/10/1049530399.wem
+/wem/10/1055074490.wem
+/wem/10/1057056568.wem
 /wem/10/1058402315.wem
 /wem/10/1062997670.wem
 /wem/10/106308486.wem
@@ -24911,6 +24939,7 @@
 /wem/11/116783178.wem
 /wem/11/119342616.wem
 /wem/11/119991805.wem
+/wem/12/122515651.wem
 /wem/12/129529544.wem
 /wem/12/129777443.wem
 /wem/13/134279603.wem
@@ -24922,8 +24951,11 @@
 /wem/14/144746529.wem
 /wem/14/144795270.wem
 /wem/14/14777015.wem
+/wem/14/149083230.wem
+/wem/15/153044263.wem
 /wem/15/153274947.wem
 /wem/15/15700859.wem
+/wem/16/160406556.wem
 /wem/16/1624957.wem
 /wem/16/162757822.wem
 /wem/16/165585408.wem
@@ -24944,6 +24976,7 @@
 /wem/19/19926075.wem
 /wem/20/203193357.wem
 /wem/20/203346054.wem
+/wem/20/205447708.wem
 /wem/20/206163964.wem
 /wem/20/206225072.wem
 /wem/21/211124405.wem
@@ -24983,6 +25016,7 @@
 /wem/33/333757548.wem
 /wem/33/33379559.wem
 /wem/33/335707718.wem
+/wem/33/337584106.wem
 /wem/33/33918197.wem
 /wem/33/339350595.wem
 /wem/35/358632186.wem
@@ -25024,6 +25058,7 @@
 /wem/48/484741454.wem
 /wem/48/486194111.wem
 /wem/48/488666734.wem
+/wem/49/492628358.wem
 /wem/49/496221640.wem
 /wem/50/50454640.wem
 /wem/51/511297957.wem
@@ -25032,6 +25067,7 @@
 /wem/52/529164827.wem
 /wem/53/536020155.wem
 /wem/53/536173958.wem
+/wem/53/538075784.wem
 /wem/53/538856980.wem
 /wem/54/541846156.wem
 /wem/54/543823840.wem
@@ -25043,8 +25079,10 @@
 /wem/55/558820731.wem
 /wem/55/559925921.wem
 /wem/56/561009818.wem
+/wem/56/562969240.wem
 /wem/56/56971469.wem
 /wem/57/57106726.wem
+/wem/57/573796242.wem
 /wem/57/578647299.wem
 /wem/58/580521931.wem
 /wem/58/586411986.wem
@@ -25054,9 +25092,11 @@
 /wem/59/593473168.wem
 /wem/59/594965313.wem
 /wem/59/595111614.wem
+/wem/59/598577209.wem
 /wem/60/600892170.wem
 /wem/60/604167118.wem
 /wem/61/613607729.wem
+/wem/61/614748129.wem
 /wem/61/616259910.wem
 /wem/62/621619490.wem
 /wem/62/622078795.wem
@@ -25074,6 +25114,7 @@
 /wem/68/687212030.wem
 /wem/68/687253260.wem
 /wem/70/708368847.wem
+/wem/71/711355485.wem
 /wem/71/716879955.wem
 /wem/72/72159735.wem
 /wem/72/721845334.wem
@@ -25086,6 +25127,7 @@
 /wem/74/747252998.wem
 /wem/74/749633631.wem
 /wem/75/751684267.wem
+/wem/75/757609144.wem
 /wem/75/758292514.wem
 /wem/75/758503133.wem
 /wem/76/766743929.wem
@@ -25095,17 +25137,23 @@
 /wem/78/785560912.wem
 /wem/79/795570164.wem
 /wem/80/804033208.wem
+/wem/80/807513038.wem
+/wem/81/816143941.wem
 /wem/82/829054425.wem
 /wem/83/832215892.wem
+/wem/83/836373676.wem
 /wem/84/840311198.wem
 /wem/84/845835134.wem
 /wem/84/847388611.wem
 /wem/84/8491743.wem
+/wem/85/850742848.wem
 /wem/85/851506534.wem
 /wem/85/853904077.wem
 /wem/85/857938517.wem
+/wem/86/863732742.wem
 /wem/87/876695710.wem
 /wem/87/876730782.wem
+/wem/87/877921591.wem
 /wem/87/879397747.wem
 /wem/87/879881858.wem
 /wem/88/881413598.wem
@@ -25130,15 +25178,20 @@
 /wem/94/942932432.wem
 /wem/94/947505108.wem
 /wem/94/947926121.wem
+/wem/94/948252241.wem
 /wem/95/950549214.wem
 /wem/95/958049389.wem
 /wem/96/961163041.wem
 /wem/96/965379103.wem
 /wem/96/966924590.wem
+/wem/97/971348507.wem
 /wem/98/980321517.wem
 /wem/98/98230734.wem
 /wem/98/986842364.wem
 /wem/98/987655573.wem
+/wem/98/988100945.wem
 /wem/99/990496281.wem
 /wem/99/991751601.wem
+/wem/99/994783697.wem
 /wem/99/99809782.wem
+

@@ -7,7 +7,7 @@
     <archive>LqChrEbl</archive>
     <archive>LqMapEbl</archive>
     <archive>LqObjEbl</archive>
-    <archie>LqPartsEbl</archie>
+    <archive>LqPartsEbl</archive>
   </archives>
   <backup_dirs>
     <backup>param</backup>

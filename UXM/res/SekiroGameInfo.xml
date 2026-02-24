@@ -16,7 +16,7 @@
     <delete>_unknown</delete>
     <delete>action</delete>
     <delete>chr</delete>
-	<delete>cutscene</delete>
+    <delete>cutscene</delete>
     <delete>event</delete>
     <delete>facegen</delete>
     <delete>font</delete>

@@ -1,3 +1,4 @@
+#data
 /asset/menu/artwork/layout_p00.dds
 /asset/menu/artwork/layout_p01.dds
 /asset/menu/artwork/layout_p02_en.dds
@@ -182,3 +183,4 @@
 /shader/gxshader.shaderbnd.dcx
 /sound/smain.fev
 /sound/smain.itl
+

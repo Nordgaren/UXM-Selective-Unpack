@@ -7,7 +7,7 @@
     <archive>HqChrEbl</archive>
     <archive>HqMapEbl</archive>
     <archive>HqObjEbl</archive>
-    <archie>HqPartsEbl</archie>
+    <archive>HqPartsEbl</archive>
   </archives>
   <backup_dirs>
     <backup>param</backup>

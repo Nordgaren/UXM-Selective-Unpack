@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <game_info>
-	<required_gb>50</required_gb>
+	<required_gb>67</required_gb>
 	<bhd5_game>EldenRing</bhd5_game>
 	<archives>
 		<archive>Data0</archive>
